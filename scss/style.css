@@ -1,0 +1,212 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 0px 0px;
+      grid-template-areas: "Bitcoin Dogecoin Ethereum" "Litecoin Ripple";
+}
+
+.Bitcoin {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Bitcoin;
+}
+
+.Dogecoin {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Dogecoin;
+}
+
+.Ethereum {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: Ethereum;
+}
+
+.Litecoin {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Litecoin;
+}
+
+.Ripple {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Ripple;
+}
+
+main h1 {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+main p {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+section h2 {
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+}
+
+section .coin {
+  margin-top: 5rem;
+}
+
+section .coin #criptocoin {
+  width: 12rem;
+  height: 12rem;
+  padding-left: 40%;
+}
+
+section .coin2 {
+  margin-top: 2rem;
+}
+
+section .coin2 #ethereum {
+  width: 15rem;
+  height: 15rem;
+  padding-left: 35%;
+}
+
+section .coin3 {
+  margin-top: 1rem;
+}
+
+section .coin3 #criptocoin {
+  width: 12rem;
+  height: 12rem;
+  padding-left: 40%;
+}
+
+section p {
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url(../imagenes/Criptomonadas_1.png);
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 9%;
+  margin: 0;
+}
+
+header .container {
+  max-width: 3.125px;
+}
+
+header .logo {
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+header nav {
+  margin: 0%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul {
+  margin: auto auto auto 5rem;
+  height: auto;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+form {
+  max-width: 70%;
+  margin-top: 5% !important;
+  margin: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form .moneda, form .cripto {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+form .boton {
+  margin: auto;
+}
+
+form h4 {
+  margin: auto;
+  height: auto;
+}
+
+.boton2 {
+  margin-top: 1rem;
+  margin-left: 55rem;
+}
+
+.historial {
+  display: block;
+  margin-left: 45rem;
+  padding-left: 10rem;
+  max-width: 20rem;
+  border-radius: 1rem;
+  background-color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.historial li {
+  list-style: none;
+  padding-right: 5rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

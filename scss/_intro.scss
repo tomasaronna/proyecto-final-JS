@@ -1,0 +1,66 @@
+.grid-container {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "Bitcoin Dogecoin Ethereum"
+    "Litecoin Ripple"; 
+}
+.Bitcoin { grid-area: Bitcoin; }
+.Dogecoin { grid-area: Dogecoin; }
+.Ethereum { grid-area: Ethereum; }
+.Litecoin { grid-area: Litecoin; }
+.Ripple { grid-area: Ripple; }
+
+main{
+  h1{
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+  }
+  p{
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white; 
+  }
+}
+
+section{
+  h2{
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+    text-align: center;
+  }
+  .coin{
+    margin-top: 5rem;
+
+    #criptocoin{
+      width: 12rem;
+      height: 12rem;
+      padding-left: 40%;
+    }
+    
+  }
+  .coin2{
+    margin-top: 2rem;
+    #ethereum{
+      width: 15rem;
+      height: 15rem;
+      padding-left: 35%;
+    }
+  }
+  .coin3{
+    margin-top: 1rem;
+    #criptocoin{
+      width: 12rem;
+      height: 12rem;
+      padding-left: 40%;
+    }
+  }
+  p{
+    margin-left: 2rem;
+    background-color: rgba(0, 0, 0, 0.900);
+    color: white;
+  }
+}

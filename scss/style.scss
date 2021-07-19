@@ -1,0 +1,97 @@
+@import "intro";
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(../imagenes/Criptomonadas_1.png);
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 9%;
+    margin: 0;
+    .container{
+        max-width: 3.125px;
+    }
+    .logo{
+        margin-left: 1rem;
+        margin-top: 0.2rem;
+    }
+    nav{
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        ul{
+            margin: auto auto auto 5rem;
+            height: auto;
+            padding: 0;
+            li{
+                margin-left: 5rem;
+                display: inline-flex;
+                list-style: none;
+                font-family: 'Bebas Neue', cursive;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form{
+    max-width: 70%;
+    margin-top: 5% !important; 
+    margin: auto;
+    height: auto;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: center;
+    .moneda, .cripto{
+        margin: 2rem;
+        font-size: 1.5rem;
+    }
+    .boton{
+        margin: auto;
+    }
+    h4{
+        margin: auto;
+        height: auto;
+    }
+}
+.boton2{
+    margin-top: 1rem;
+    margin-left: 55rem;
+}
+.historial{
+    display: block;
+    margin-left: 45rem;
+    padding-left: 10rem;
+    max-width: 20rem;
+    border-radius: 1rem;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    li{
+        list-style: none;
+        padding-right: 5rem;
+        margin-top: 1rem;
+    }
+}
